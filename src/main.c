@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
                 if(strstr(metrics,"network")) network_enabled=true;
             }
             else{
-                perror("Error al procesar los argumentos");
+                perror("Error al procesar los argumentos.");
                 return EXIT_FAILURE;
             }
         }
